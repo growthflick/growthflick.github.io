@@ -8,39 +8,54 @@
 </head>
 <body>
     <header>
-        <p>Growth Flick</p>
         <nav>
-            <ul>
-                <li>Our Approach</li>
-                <li>Get In Touch</li>
+            <a class="company_name" href="#">Growth Flick</a>
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="#" class="nav__link">Our Approach</a></li>
+                <li class="nav__list-item btn nav__btn-primary"><a href="#" class="nav__link">Get In Touch</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1>Increase your landing page conversion</h1>
-        <p>Growth Flick is a small growth agency focused on landing pages. We build high converting pages with great copy and strong layouts.</p>
+        <h1 class="hero_title">Increase your landing page conversion</h1>
+        <p class="hero_subtitle">Growth Flick is a small growth agency focused on landing pages. We build high converting pages with great copy and strong layouts.</p>
 
-        <h2>Our Approach</h2>
-        <h3>Define key elements and text</h3>
-        <p>First we consider the overall page layout and key elements. We decide which key ideas to convey and create a first draft of the page copy. Landing page layout is incredibly important for keeping readers engaged and guiding them towards your primary call to action.</p>
-        <img src="images/elements-and-text.svg">
+        <h2 class="our_approach">Our Approach</h2>
 
-        <h3>Finalise Copy</h3>
-        <p>Next we re-write the copy until it’s perfect. Copy is the most important factor in helping vistors understand your product and improving conversion. We want copy that’s fun to read, yet consice. Your copy should teach the visitor everything they need to know about your product and persuade them to take the next step.</p>
-        <img src="images/finalise-copy.svg">
+        <div class=approach_row>
+            <div class="approach_container">
+                <h3>Define key elements and text</h3>
+                <p >First we consider the overall page layout and key elements. We decide which key ideas to convey and create a first draft of the page copy. Landing page layout is incredibly important for keeping readers engaged and guiding them towards your primary call to action.</p>
+            </div>
+            <img class="approach_img" src="images/elements-and-text.svg">
+        </div>
 
-        <h3>Track and Optimise</h3>
-        <p>Releasing your new landing page is just the beginning. We’ll monitor the performance using analytics and run A/B tests to constantly improve. We believe that landing pages must be continously refined in order to maintain or improve conversion.</p>
-        <img src="images/track-and-optimise.svg">
+        <div class=approach_row>
+            <img class="approach_img" src="images/finalise-copy.svg">
+            <div class="approach_container">
+                <h3>Finalise Copy</h3>
+                <p>Next we re-write the copy until it’s perfect. Copy is the most important factor in helping vistors understand your product and improving conversion. We want copy that’s fun to read, yet consice. Your copy should teach the visitor everything they need to know about your product and persuade them to take the next step.</p>
+            </div>
+        </div>
 
-        <a href="" class="btn btn-primary">Get In Touch</a>
+        <div class=approach_row>
+            <div class="approach_container">
+                <h3>Track and Optimise</h3>
+                <p>Releasing your new landing page is just the beginning. We’ll monitor the performance using analytics and run A/B tests to constantly improve. We believe that landing pages must be continously refined in order to maintain or improve conversion.</p>
+            </div>
+            <img class="approach_img" src="images/track-and-optimise.svg">
+        </div>
+
+        <div class="btn-primary-container">
+            <a href="" class="btn btn-primary">Get In Touch</a>
+        </div>
     </main>
 
     <footer>
-        <p>Growth Flick</p>
-        <ul>
-            <li>Contact Us</li>
+        <a class="company_name" href="#">Growth Flick</a>
+        <ul class="footer__list">
+            <li><a href="#" class="footer__link">Contact Us</a></li>
         </ul>
     </footer>
 </body>
