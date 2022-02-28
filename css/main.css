@@ -102,6 +102,14 @@ h1 {
     width: 50%
 }
 
+.service_item_header {
+    margin-bottom: 0px;
+}
+
+.service_item_body {
+    margin-top: 0px;
+}
+
 @media only screen and (max-width: 800px) {
     .service_item {
         width: 100%
@@ -133,6 +141,8 @@ h1 {
     width: 50%; */
 
     /* margin: 0 auto; */
+    padding-top: 3em;
+    padding-bottom: 2em;
 
     display: flex;
     justify-content: center;
@@ -142,9 +152,13 @@ h1 {
     font-size: 2rem;
 
     border-style: solid;
-    border-width: 0.2em;
+    border-width: 0.14em;
     padding-left: 0.5em;
-    padding-right: 0.5em
+    padding-right: 0.5em;
+}
+
+.footer_block {
+    padding-bottom: 2em;
 }
 
 .footer__list {
@@ -156,6 +170,10 @@ h1 {
     font-weight: bold;
     float: right;
     vertical-align: middle;
+}
+
+.footer__list_item {
+    margin-left: 0.5rem;
 }
 
 .footer__link {
