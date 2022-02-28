@@ -22,6 +22,10 @@ body {
 
 header {}
 
+hr {
+    width: 75%
+}
+
 .btn {
     text-decoration: none;
     color: inherit;
@@ -60,6 +64,7 @@ nav {
 .nav__btn-primary {
     border-style: solid;
     border-width: 0.2em;
+    margin-top: -0.2em;
     padding-left: 0.5em;
     padding-right: 0.5em
 }
@@ -69,11 +74,13 @@ main {
 }
 
 .hero_title {
+    padding-top: 1.2em;
     text-align: center;
 }
 
 .hero_subtitle {
     text-align: center;
+    padding-bottom: 1em;
 }
 
 .our_approach {
