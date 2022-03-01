@@ -64,9 +64,12 @@ nav {
 .nav__btn-primary {
     border-style: solid;
     border-width: 0.2em;
+
     margin-top: -0.2em;
     padding-left: 0.5em;
-    padding-right: 0.5em
+    padding-right: 0.5em;
+
+    text-transform: uppercase;
 }
 
 main {
@@ -155,6 +158,8 @@ h1 {
     border-width: 0.14em;
     padding-left: 0.5em;
     padding-right: 0.5em;
+
+    text-transform: uppercase;
 }
 
 footer {
