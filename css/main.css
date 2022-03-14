@@ -94,7 +94,7 @@ h1 {
     font-size: 1.15em;
 }
 
-.services {
+.process {
     display: flex;
     flex-wrap: wrap;
     padding-left: 2em;
@@ -113,14 +113,62 @@ h1 {
     margin-top: 0px;
 }
 
+.pricing {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.pricing_item {
+    width: 50%
+}
+
+.pricing_item_header {
+    margin-bottom: 0px;
+}
+
+.pricing_item_price {
+    /* margin-bottom: 0px; */
+    margin-top: 0px;
+}
+
+.pricing_item_body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pricing_btn-primary-container {
+    /* padding-top: 3em;
+    padding-bottom: 2em; */
+
+    display: flex;
+    /* justify-content: center; */
+}
+
+.pricing_btn-primary {
+    font-size: 1.3rem;
+
+    border-style: solid;
+    border-width: 0.14em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    text-transform: uppercase;
+}
+
 @media only screen and (max-width: 800px) {
     .service_item {
         width: 100%
     }
-  }
+
+    .pricing_item {
+        width: 100%
+    }
+}
 
 
-.our_approach {
+.body_title {
     text-align: center;
 }
 
