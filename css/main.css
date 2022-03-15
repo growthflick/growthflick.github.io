@@ -38,6 +38,13 @@ hr {
     font-size: 1rem;
 }
 
+.short_company_name { display: none; }
+
+@media (max-width: 500px) {
+    .short_company_name { display: inline-block; }
+    .full_company_name { display: none; }
+}
+
 nav {
     padding: 1rem;
 }
