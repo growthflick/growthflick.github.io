@@ -7,76 +7,28 @@
 }
 
 :root {
-    --clr-background: #232ED1;
+    --clr-background: #E5E5FF;
     --clr-white: #fff;
-    --clr-text: #0D1317;
+    --clr-text: #00004C;
 }
 
 body {
     font-family: 'Barlow',sans-serif;
     /* font-size: 24px; */
-    color: var(--clr-white);
+    color: var(--clr-text);
     line-height: 1.6;
     background: var(--clr-background);
 }
 
-header {}
-
-hr {
-    width: 75%
-}
-
-.btn {
-    text-decoration: none;
-    color: inherit;
-}
-
-.company_name {
+.company-name {
     font-weight: bold;
     text-decoration: none;
     color: inherit;
     font-size: 1rem;
 }
 
-.short_company_name { display: none; }
-
-@media (max-width: 500px) {
-    .short_company_name { display: inline-block; }
-    .full_company_name { display: none; }
-}
-
 nav {
     padding: 1rem;
-}
-
-.nav__list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 0.875rem;
-    font-weight: bold;
-    float: right;
-}
-
-.nav__link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.nav__list-item {
-    margin-left: 0.5rem;
-}
-
-.nav__btn-primary {
-    border-style: solid;
-    border-width: 0.2em;
-
-    margin-top: -0.2em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-
-    text-transform: uppercase;
 }
 
 main {
@@ -84,163 +36,38 @@ main {
 }
 
 h1 {
-    /* font-family: "Circular Std Bold",sans-serif; */
     font-size: 3em;
 }
 
-.hero_title {
+.hero-title {
     padding-top: 1.2em;
     text-align: center;
     line-height: 1.2em;
 }
 
-.hero_subtitle {
+.hero-subtitle {
     text-align: center;
-    padding-bottom: 4em;
     margin-top: -20px; /* todo find better way */
     font-size: 1.15em;
 }
 
-.process {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 2em;
-    padding-right: 2em;
+.contact-button-container {
+    text-align: center
 }
 
-.service_item {
-    width: 50%
-}
-
-.service_item_header {
-    margin-bottom: 0px;
-}
-
-.service_item_body {
-    margin-top: 0px;
-}
-
-.pricing {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-.pricing_item {
-    width: 50%
-}
-
-.pricing_item_header {
-    margin-bottom: 0px;
-}
-
-.pricing_item_price {
-    /* margin-bottom: 0px; */
-    margin-top: 0px;
-}
-
-.pricing_item_body {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.pricing_btn-primary-container {
-    /* padding-top: 3em;
-    padding-bottom: 2em; */
-
-    display: flex;
-    /* justify-content: center; */
-}
-
-.pricing_btn-primary {
-    font-size: 1.3rem;
-
-    border-style: solid;
-    border-width: 0.14em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-
-    text-transform: uppercase;
-}
-
-@media only screen and (max-width: 800px) {
-    .service_item {
-        width: 100%
-    }
-
-    .pricing_item {
-        width: 100%
-    }
-}
-
-
-.body_title {
+button {
+    background-color: #4C4CFF; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-}
-
-.approach_row {
-    display: flex;
-    flex-direction: row;
-}
-
-.approach_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.approach_img {
-    width: 50%;
-}
-
-.btn-primary-container {
-    /* margin: auto;
-    width: 50%; */
-
-    /* margin: 0 auto; */
-    padding-top: 3em;
-    padding-bottom: 2em;
-
-    display: flex;
-    justify-content: center;
-}
-
-.btn-primary {
-    font-size: 2rem;
-
-    border-style: solid;
-    border-width: 0.14em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-
-    text-transform: uppercase;
-}
-
-footer {
-    padding: 1rem;
-}
-
-.footer_block {
-    padding-bottom: 2em;
-}
-
-.footer__list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 0.875rem;
-    font-weight: bold;
-    float: right;
-    vertical-align: middle;
-}
-
-.footer__list_item {
-    margin-left: 0.5rem;
-}
-
-.footer__link {
     text-decoration: none;
-    color: inherit;
+    display: inline-block;
+    font-size: 2em;
+    border-radius: 50px;
+  }
+
+button:hover {
+    background-color: #3232FF;
+    cursor: pointer;
 }
